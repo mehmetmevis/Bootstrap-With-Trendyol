@@ -1,0 +1,196 @@
+/* UP NAVBAR */
+.upNavbar {
+  font-size: 11px;
+}
+.upNavbar .list-inline-item a {
+  color: #333;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.list-inline-item a:hover {
+  opacity: 0.8;
+}
+/* LOGO ,SEARCH BOX and USERS */
+.form-control {
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  height: 48px;
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: #fff;
+  border: 2px solid #f27a1a;
+  border-radius: 8px;
+}
+.input-box {
+  width: 55%;
+  border-radius: 8px;
+  position: relative;
+  margin-left: 4%;
+}
+.input-box i {
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 95%;
+  color: #f27a1a;
+}
+::placeholder {
+  font-size: 14px;
+}
+.users {
+  margin-left: 4%;
+  margin-top: 1.5%;
+}
+.users ul li a {
+  font-size: 13px;
+  color: #333;
+  text-decoration: none;
+}
+.users ul li a:hover {
+  color: #f27a1a;
+}
+.users ul li a i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+/* CATEGORY */
+.category {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.category ul li {
+  font-size: 14px;
+}
+.category ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.category ul li:hover a {
+  color: #f27a1a;
+  border-bottom: 2px solid #f27a1a;
+}
+.category ul li a:focus {
+  color: #f27a1a;
+  border-bottom: 2px solid #f27a1a;
+}
+/* STORY KISMI*/
+.storyBrand .list-inline li a img {
+  border: 1px solid #f3f3f3;
+  width: 70%;
+  border-radius: 100%;
+}
+.storyBrand .list-inline li a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.storyBrand .list-inline li a:hover img {
+  border: 1px solid #f27a1a;
+  color: #f27a1a;
+}
+.storyBrand .list-inline li a p {
+  font-size: 14px;
+}
+.storyBrand .list-inline li a:hover p {
+  color: #f27a1a;
+}
+/* REKLAM */
+.advert a img {
+  width: 100%;
+}
+/* PAİNT */
+.card {
+  height: 85%;
+  cursor: pointer;
+}
+.card a img {
+  width: 100%;
+}
+.card-body {
+  font-size: 14px;
+  background-color: #1b1b1b;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.card:hover .card-body {
+  background-color: #f27a1a;
+}
+.card .card-body .card-text {
+  display: none;
+}
+.card:hover .card-body .card-text {
+  display: block;
+}
+/* Öne Çıkanlar */
+.onBack {
+  background-color: #fffaf6;
+}
+.oneCikanlar .oneCikanlar-1 .card .card-title {
+  font-size: 14px;
+}
+.oneTop {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.oneTop a {
+  color: black;
+  text-decoration: underline;
+}
+.oneCikanlar .oneCikanlar-1 .card .card-text {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f27a1a;
+}
+.oneCikanlar .oneCikanlar-1 .card {
+  position: relative;
+}
+.oneCikanlar .oneCikanlar-1 .card .enCokimg {
+  width: 35%;
+  z-index: 1;
+  position: absolute;
+}
+.oneCikanlar .oneCikanlar-1 .card .heartico {
+  margin-left: 68%;
+  margin-top: 5%;
+  background-color: #fff;
+  position: absolute;
+  color: #333;
+  border: 1px solid none;
+  padding: 5%;
+  border-radius: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.oneCikanlar .oneCikanlar-1 .card .heartico:hover {
+  color: #f27a1a;
+}
+/* POPULER MARKA */
+.d-block a {
+  color: #1b1b1b;
+  display: block;
+}
+/* FOOTER ALANI*/
+.footerBg {
+  background-color: black;
+  color: #fff;
+}
+.footerBg .krediImage img {
+  width: 20%;
+}
+
+.trendQr .qr {
+  width: 50%;
+}
+
+.trendQr .tr {
+  height: 110px;
+}
+.socialMedya a {
+  width: 10%;
+}
+.socialMedya:hover a .fa-facebook {
+  color: rgb(25, 26, 85);
+}
+
+.bg-dark {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+}
